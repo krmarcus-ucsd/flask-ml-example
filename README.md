@@ -8,7 +8,7 @@
 mkdir datasets && cd datasets
 wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Musical_Instruments_v1_00.tsv.gz
 cd ..
-docker pull pull krmarcus/flask-ml-example
+docker pull krmarcus/flask-ml-example
 docker run -v "$(pwd)"/datasets:/app/datasets -p 5000:5000 krmarcus/flask-ml-example
 ```
 
