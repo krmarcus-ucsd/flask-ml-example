@@ -1,0 +1,14 @@
+<!doctype html>
+
+<html>
+    <body>
+        <a href="/items/{{ data['previous']  }}"><< Previous</a>
+        <a href="/items/{{ data['next'] }}">Next >></a>
+        <br>
+        <ul>
+        {% for item in data['items'] %}
+        <li>{{ item['product_id'] }}: {{ item['product_title'] }}</li>
+        {% endfor %}
+        </ul>
+   </body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+   <body>
+      <form action = "/items/similar" method = post>
+         <fieldset>
+            <legend>Find Similar Items Form</legend>
+            {{ form.hidden_tag() }}
+
+            <div style = font-size:20px; font-weight:bold; margin-left:150px;>
+               {{ form.item_id.label }}<br>
+               {{ form.item_id }}
+               <br>
+               {{ form.submit }}
+            </div>
+
+         </fieldset>
+      </form>
+
+      {%  if form.similarItems %}
+          <br>
+          <h3>Id: {{ form.similarItems['id'] }}</h3>
+          <h3>Name: {{ form.similarItems['name'] }}</h3>
+          Similar Items:
+          <ul>
+          {% for item in form.similarItems['similar'] %}
+             <li>{{ item }}</li>
+          {% endfor %}
+          </ul>
+      {% endif %}
+
+   </body>
+</html>
