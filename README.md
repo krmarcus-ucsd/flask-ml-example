@@ -2,6 +2,15 @@
 
 [Install Docker on Windows 10](https://runnable.com/docker/install-docker-on-windows-10)
 
+Download the dataset
+
+```
+mkdir datasets && cd datasets
+wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Musical_Instruments_v1_00.tsv.gz
+```
+
+Build and run Docker image
+
 ``
 $ docker-compose up
 ``
