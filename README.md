@@ -2,7 +2,7 @@
 
 [Install Docker on Windows 10](https://runnable.com/docker/install-docker-on-windows-10)
 
-###To run the Dockerhub image:
+### To run the Dockerhub image:
 
 ```
 mkdir datasets && cd datasets
@@ -19,7 +19,7 @@ http://localhost:5000/items/similar
 http://localhost:5000/items
 ```
 
-###To run the code locally through Docker:
+### To run the code locally through Docker:
 
 Clone the repo
 
@@ -48,7 +48,7 @@ http://localhost:5000/items/similar
 http://localhost:5000/items
 ```
 
-###JSON APIs
+### JSON APIs
 
 The APIs will return [JSON](https://www.w3schools.com/whatis/whatis_json.asp) results.
 
@@ -68,7 +68,7 @@ $ curl http://localhost:5000/api/items
 $ curl http://localhost:5000/api/similar/B0006VMBHI
 ```
 
-###HTML Web Pages
+### HTML Web Pages
 
 There are also support for [HTML](https://www.w3schools.com/whatis/whatis_html.asp) output
 
