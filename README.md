@@ -38,7 +38,7 @@ wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Musical_I
 Build and run Docker image
 
 ``
-$ docker-compose up
+docker-compose up
 ``
 
 You should now be able to go to
