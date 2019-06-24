@@ -2,6 +2,8 @@
 
 [Install Docker on Windows 10](https://runnable.com/docker/install-docker-on-windows-10)
 
+[Install Docker on Windows 7 or 8](https://docs.docker.com/toolbox/toolbox_install_windows/)
+
 ### To run the Dockerhub image:
 
 ```
